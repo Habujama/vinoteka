@@ -15,6 +15,7 @@ module.exports = {
     description:
       'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
     author: '@gatsbyjs',
+    keywords: 'víno, vinotéka, rozvoz vín, stáčená vína, vinotéka slaný',
   },
   plugins: [
     {
@@ -36,9 +37,9 @@ module.exports = {
               strategy: 'cdn',
             },
             {
-              family: 'Roboto Slab',
+              family: 'Lovers Quarrel',
               subsets: ['latin-ext'],
-              variants: ['500', '600', '700'],
+              variants: ['400'],
               strategy: 'cdn',
             },
           ],
@@ -105,10 +106,10 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#ffffff',
+        theme_color: '#fffffff',
         display: 'minimal-ui',
-        icon: 'src/assets/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/svg/vino.svg', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
