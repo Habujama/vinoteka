@@ -51,13 +51,33 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Roboto'],
-      serif: ['Roboto Slab'],
+      lovers: ['Lovers Quarrel'],
     },
     filter: {
       blur: 'blur(4px)',
     },
+    scale: {
+      '110': '1.1',
+      '125': '1.25',
+    },
+    maxWidth: {
+      '0': '0',
+      '10': '10%',
+      '20': '20%',
+      '30': '30%',
+      '40': '40%',
+    },
+    minWidth: {
+      '0': '0',
+      '10': '10%',
+      '20': '20%',
+      '30': '30%',
+      '40': '40%',
+    },
   },
   variants: {
+    scale: ['responsive', 'hover', 'focus'],
+    borderStyle: ['responsive', 'hover', 'focus'],
     filter: ['responsive'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
