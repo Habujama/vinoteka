@@ -37,7 +37,7 @@ module.exports = {
               strategy: 'cdn',
             },
             {
-              family: 'Lovers Quarrel',
+              family: 'Allura',
               subsets: ['latin-ext'],
               variants: ['400'],
               strategy: 'cdn',
@@ -106,8 +106,8 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#fffffff',
+        background_color: '#fcf9f9',
+        theme_color: '#ffffff',
         display: 'minimal-ui',
         icon: 'src/assets/svg/vino.svg', // This path is relative to the root of the site.
       },

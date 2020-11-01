@@ -20,28 +20,17 @@ module.exports = {
       }),
     },
     colors: {
-      black: colors.black,
+      black: '#333333',
       white: colors.white,
       transparent: colors.transparent,
       grey: {
+        '0': '#fcf9f9',
         '1': '#f1f1f1',
         '2': '#d6d6d6',
         '3': '#9c9c9c',
         '4': '#666666',
         '5': '#242424',
       },
-      yellow: {
-        light: '#feedd1',
-        base: '#faa61a',
-        dark: '#af7512',
-      },
-      teal: {
-        light: '#d7f0f2',
-        base: '#37b4be',
-        dark: '#277e85',
-      },
-      green: '#4fbf5b',
-      red: '#ed1c24',
     },
     boxShadow: {
       md: '0 2px 24px 0 rgba(0, 0, 0, 0.1)',
@@ -51,7 +40,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Roboto'],
-      lovers: ['Lovers Quarrel'],
+      lovers: ['Allura'],
     },
     filter: {
       blur: 'blur(4px)',

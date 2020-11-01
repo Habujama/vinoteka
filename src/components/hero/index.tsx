@@ -1,9 +1,29 @@
 import React, { FC } from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
-import HeroImg from '../../assets/svg/heroimg.svg'
-
-const Hero: FC = () => (
-  <HeroImg className="h-64 py-6 border-b-2 border-solid border-black" />
-)
+const Hero: FC = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "hero.png" }) {
+        childImageSharp {
+          fluid(maxHeight: 235) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <div className="pt-6 shadow-sm">
+      <Img
+        loading="lazy"
+        style={{ maxHeight: '235px' }}
+        imgStyle={{ objectFit: 'contain' }}
+        fluid={data.placeholderImage.childImageSharp.fluid}
+      />
+    </div>
+  )
+}
 
 export default Hero
