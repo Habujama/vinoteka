@@ -15,7 +15,7 @@ const Hero: FC = () => {
     }
   `)
   return (
-    <div className="pt-6 shadow-sm">
+    <div className="pt-8 shadow-sm">
       <Img
         loading="lazy"
         style={{ maxHeight: '235px' }}

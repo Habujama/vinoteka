@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 
-import Wrapper from '../shared/wrapper'
 import OfferRow from './offer-row'
 
 interface Products {
@@ -10,12 +9,15 @@ interface Products {
 
 interface Props {
   products: Products[]
+  className?: string
 }
 
-const OfferBox: FC<Props> = ({ products }) => {
+const SideOfferBox: FC<Props> = ({ products, className }) => {
   return (
-    <Wrapper size="small">
-      <div className="p-4 max-w-40">
+    <>
+      <div
+        className={`${className} bg-black sm:rounded-md text-white p-8 mt-8 shadow-md`}
+      >
         <h3 className="text-xl block mb-1">
           Lahvinky z Vinařství Černý, Valtice
         </h3>
@@ -25,8 +27,9 @@ const OfferBox: FC<Props> = ({ products }) => {
           })}
         </div>
       </div>
-    </Wrapper>
+      <p className="font-bold text-lg my-4">Celkem: 1990 Kč</p>
+    </>
   )
 }
 
-export default OfferBox
+export default SideOfferBox
