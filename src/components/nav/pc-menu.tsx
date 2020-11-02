@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import classNames from 'classnames'
 
 import Wrapper from '../shared/wrapper'
-import Logo from '../../assets/svg/vino.svg'
+import Logo from '../../assets/svg/logo.svg'
 
 interface Props {
   className?: string

@@ -24,8 +24,8 @@ const Layout: FC = () => {
       <Wrapper>
         <Hero />
         <News
-          title="Řízená degustace 2020"
-          message="Degustace neboli ochutnávka je činnost, při které se ochutnávají různé potraviny či nápoje. Mezi nejznámější patří degustace vín, při které víno degustuje tzv. sommelier (česky sklepmistr, ve francouzštině též číšník roznášející víno). Jelly Caramel!"
+          title="Dovezeme vám víno až domů"
+          message="Chápeme, že se vám během lockdownu nechce chodit ven a nedostanete se tak ani k nám do vinotéky. My vám vinotéku přivezeme domů! Vyberte si z naší týdenní nabídky vín a zavolejte si o ně."
         />
         <Delivery />
       </Wrapper>
