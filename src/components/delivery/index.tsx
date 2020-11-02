@@ -3,6 +3,9 @@ import React, { FC } from 'react'
 import TopOfferBox from './top-offer-box'
 import BottomOfferBox from './bottom-offer-box'
 import SideOfferBox from './side-offer-box'
+import Chosen from './chosen'
+import MobileDark from '../../assets/svg/mobile-dark.svg'
+
 import { products } from './products'
 
 const Delivery: FC = () => (
@@ -15,6 +18,7 @@ const Delivery: FC = () => (
         href="tel:+420775601128"
         className="inline-block justify-self-center font-bold text-xl text-center transform hover:scale-125 hover:bg-white py-2 px-6 mt-4 rounded-md shadow-md ease-in-out duration-200"
       >
+        <MobileDark className="inline-block mr-4" />
         775 601 128
       </a>
     </div>
@@ -32,6 +36,7 @@ const Delivery: FC = () => (
         className="sm:col-start-2 col-start-1 col-span-1 sm:row-start-1 sm:row-span-2 row-span-1"
       />
     </div>
+    <Chosen />
   </>
 )
 

@@ -1,10 +1,9 @@
 import React, { FC } from 'react'
-/* import { useStaticQuery, graphql } from 'gatsby' */
+
 import Nav from './nav'
 import Hero from './hero'
 import News from './news'
 import Delivery from './delivery'
-import Form from './form'
 
 import Wrapper from '../components/shared/wrapper'
 
@@ -29,7 +28,6 @@ const Layout: FC = () => {
           message="Degustace neboli ochutnávka je činnost, při které se ochutnávají různé potraviny či nápoje. Mezi nejznámější patří degustace vín, při které víno degustuje tzv. sommelier (česky sklepmistr, ve francouzštině též číšník roznášející víno). Jelly Caramel!"
         />
         <Delivery />
-        <Form />
       </Wrapper>
     </>
   )

@@ -14,10 +14,6 @@ module.exports = {
         '1/2': '50%',
         '4/5': '80%',
       },
-      backgroundImage: () => ({
-        'app-layout-gradient':
-          'linear-gradient(135deg, rgba(38, 125, 226, 0.08) 0.14%, rgba(208, 129, 136, 0.08) 100%)',
-      }),
     },
     colors: {
       black: '#333333',
@@ -42,32 +38,28 @@ module.exports = {
       sans: ['Roboto'],
       lovers: ['Allura'],
     },
-    filter: {
-      blur: 'blur(4px)',
-    },
     scale: {
       '110': '1.1',
       '125': '1.25',
     },
     maxWidth: {
-      '0': '0',
-      '10': '10%',
-      '20': '20%',
-      '30': '30%',
-      '40': '40%',
+      '50': '50%',
+      '60': '60%',
+      '70': '70%',
+      '80': '80%',
+      '90': '90%',
     },
     minWidth: {
-      '0': '0',
-      '10': '10%',
-      '20': '20%',
-      '30': '30%',
-      '40': '40%',
+      '50': '50%',
+      '60': '60%',
+      '70': '70%',
+      '80': '80%',
+      '90': '90%',
     },
   },
   variants: {
     scale: ['responsive', 'hover', 'focus'],
     borderStyle: ['responsive', 'hover', 'focus'],
-    filter: ['responsive'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
