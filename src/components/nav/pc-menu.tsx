@@ -17,13 +17,26 @@ const PcMenu: FC<Props> = ({ className }) => {
     <div className={className}>
       <Wrapper>
         <div className="flex flex-col space-y-4 items-center md:space-y-0 md:flex-row justify-between w-full mx-auto py-4 px-8 max-w-screen-xl outline-white font-lovers text-lg sm:text-4xl md:text-5xl">
-          <button className={button}>Rozvoz</button>
-          <button className={button}>Vína</button>
-          <button aria-label="Vinotéka U Jana Amose">
-            <Logo className="focus:outline-none h-24 ml-2 mr-4 duration-200 hover:scale-110 transform" />
-          </button>
-          <button className={button}>Destiláty</button>
-          <button className={button}>Kontakt</button>
+          <a href="#rozvoz" className="block">
+            <button className={button}>Rozvoz</button>
+          </a>
+          <a href="#vina" className="block">
+            <button className={button}>Vína</button>
+          </a>
+          <a href="/" className="block">
+            <button
+              aria-label="Vinotéka U Jana Amose"
+              className="focus:outline-none h-24 ml-2 mr-8 duration-200 hover:scale-110 transform"
+            >
+              <Logo />
+            </button>
+          </a>
+          <a href="#destilaty" className="block">
+            <button className={`${button} md:-ml-8`}>Destiláty</button>
+          </a>
+          <a href="#kontakt" className="block">
+            <button className={button}>Kontakt</button>
+          </a>
         </div>
       </Wrapper>
     </div>

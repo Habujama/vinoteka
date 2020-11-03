@@ -14,7 +14,7 @@ const Chosen: FC = () => (
     <div className="flex justify-center">
       <a
         href="tel:+420775601128"
-        className="inline-block justify-self-center font-bold text-xl text-center text-white bg-black transform hover:scale-125 py-2 px-6 mt-4 rounded-md shadow-md ease-in-out duration-200"
+        className="inline-block justify-self-center font-bold text-xl text-center text-white bg-black transform hover:scale-125 py-2 px-6 mt-8 rounded-md shadow-md ease-in-out duration-200"
       >
         <Mobile className="inline-block mr-4" />
         775 601 128
