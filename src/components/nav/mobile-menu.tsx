@@ -43,10 +43,18 @@ const MobileMenu: FC<Props> = ({ className }) => {
           className="flex flex-col row-start-1 col-start-2 col-span-1 space-y-4 items-center md:space-y-0 md:flex-row justify-between w-full mx-auto py-4 px-8 max-w-screen-xl outline-none font-lovers text-3xl sm:text-4xl md:text-6xl"
         >
           <div className={closeCss}>
-            <button className={button}>Rozvoz</button>
-            <button className={button}>Vína</button>
-            <button className={button}>Destiláty</button>
-            <button className={button}>Kontakt</button>
+            <a href="/#rozvoz">
+              <button className={button}>Rozvoz</button>
+            </a>
+            <a href="/#vina">
+              <button className={button}>Vína</button>
+            </a>
+            <a href="/#destilaty">
+              <button className={button}>Destiláty</button>
+            </a>
+            <a href="/#kontakt">
+              <button className={button}>Kontakt</button>
+            </a>
           </div>
         </div>
       )}
