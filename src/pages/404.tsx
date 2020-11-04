@@ -11,7 +11,7 @@ import Mobile from '../assets/svg/mobile.svg'
 const NotFoundPage: FC<PageProps> = () => (
   <Layout>
     <SEO title="404: Tady víno neteče!" />
-    <Wrapper>
+    <Wrapper className="mb-20">
       <h2 className="font-lovers md:text-6xl text-4xl text-center mt-16">
         Tady víno neteče!
       </h2>

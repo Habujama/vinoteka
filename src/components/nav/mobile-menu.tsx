@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 import useClickOutside from '../../hooks/use-click-outside'
 
-import Logo from '../../assets/svg/vino.svg'
+import Logo from '../../assets/svg/logo.svg'
 import Hamburger from '../../assets/svg/hamburger.svg'
 import Close from '../../assets/svg/close.svg'
 

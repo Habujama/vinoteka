@@ -11,9 +11,9 @@ const Destilaty: FC = () => (
       >
         Destiláty
       </h2>
-      <p className="text-lg mb-8">
-        Ve Vinotéce U Jana Amose na vás čeká více než 200 druhů vín z těch
-        nejlepších českých, moravských i světových vinařství.
+      <p className="text-lg mb-20">
+        Hledáte výbornou medovinu nebo pálenku? Máme je! A k nim navíc kvalitní
+        zahraniční rumy, portská vína a další destiláty. Přijďte si vybrat.
       </p>
     </div>
     <div className="grid grid-cols-5">{/* <Konecny /> */}</div>

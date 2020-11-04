@@ -6,7 +6,7 @@ const Footer: FC = () => {
   const today = new Date()
   const currentYear = today.getFullYear()
   return (
-    <div className="bg-black shadow-md text-white pt-6 pb-8">
+    <div className="bg-black shadow-md text-white pt-6 pb-8 w-full bottom-0">
       <Wrapper>
         <div
           className="grid sm:grid-cols-4 sm:grid-rows-1 grid-rows-4 grid-cols-1 gap-x-8 px-4 sm:px-0 leading-7"
@@ -44,7 +44,7 @@ const Footer: FC = () => {
               </a>
             </dd>
           </dl>
-          <dl className="sm:col-start-4 col-span-1 my-auto">
+          <dl className="sm:col-start-4 col-span-1 mt-auto text-sm">
             <dt>
               ©&nbsp;{currentYear}{' '}
               Vino&nbsp;Bohemia&nbsp;spol.&nbsp;s&nbsp;r.&nbsp;o.
