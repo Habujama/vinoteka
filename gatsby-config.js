@@ -11,10 +11,10 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Vinotéka U Jana Amose ve Slaném',
     description:
-      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
-    author: '@gatsbyjs',
+      'Rozvoz a prodej nejlepších českých a moravských vín a kvalitních destilátů.',
+    author: 'Vino Bohemia s. r. o.',
     keywords: 'víno, vinotéka, rozvoz vín, stáčená vína, vinotéka slaný',
   },
   plugins: [

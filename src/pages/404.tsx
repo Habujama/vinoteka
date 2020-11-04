@@ -3,12 +3,35 @@ import { PageProps } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Wrapper from '../components/shared/wrapper'
 
 const NotFoundPage: FC<PageProps> = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="404: Tady víno neteče!" />
+    <Wrapper>
+      <h2 className="font-lovers md:text-6xl text-4xl text-center mt-16">
+        Tady víno neteče!
+      </h2>
+      <p className="text-xl text-center leading-10">
+        Takovou stránku u nás ještě nenajdete.
+        <br />
+        Chybí vám tu něco? Napište nebo zavolejte nám o tom.
+      </p>
+      <div className="flex justify-center sm:space-x-8 mt-8">
+        <a
+          href="mailto:info@vinobohemia.com"
+          className="inline-block justify-self-center font-bold text-xl text-center text-black bg-white rounded-md shadow-md transform hover:scale-125 hover:border-black ease-in-out duration-200 py-2 px-6 mb-4 sm:mb-0"
+        >
+          info@vinobohemia.com
+        </a>
+        <a
+          href="tel:+420775601128"
+          className="inline-block justify-self-center font-bold text-xl text-center text-white bg-black transform hover:scale-125 py-2 px-6 mb-4 sm:mb-0 rounded-md shadow-md ease-in-out duration-200"
+        >
+          775 601 128
+        </a>
+      </div>
+    </Wrapper>
   </Layout>
 )
 
