@@ -1,0 +1,5 @@
+export const HOME = '/'
+export const ROZVOZ = '/#rozvoz'
+export const VINA = '/#vina'
+export const DESTILATY = '/#destilaty'
+export const KONTAKT = '/#kontakt'

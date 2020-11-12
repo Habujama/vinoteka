@@ -103,13 +103,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
+        name: 'Vinotéka U Jana Amose',
         short_name: 'starter',
         start_url: '/',
         background_color: '#fcf9f9',
         theme_color: '#ffffff',
         display: 'minimal-ui',
-        icon: 'src/assets/svg/vino.svg', // This path is relative to the root of the site.
+        icon: 'src/assets/svg/logo.svg', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

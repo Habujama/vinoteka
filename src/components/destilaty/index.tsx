@@ -11,7 +11,7 @@ const Destilaty: FC = () => (
       >
         Destiláty
       </h2>
-      <p className="text-lg mb-20">
+      <p className="text-lg md:w-1/2 mx-auto mb-20">
         Hledáte výbornou medovinu nebo pálenku? Máme je! A k nim navíc kvalitní
         zahraniční rumy, portská vína a další destiláty. Přijďte si vybrat.
       </p>

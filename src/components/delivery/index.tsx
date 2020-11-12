@@ -11,12 +11,12 @@ import { products } from './products'
 const Delivery: FC = () => (
   <>
     <h2 className="font-lovers md:text-6xl text-4xl text-center">
-      Rozvoz vín po Slaném a okolí
+      Rozvoz vín po Slaném a&nbsp;okolí
     </h2>
     <div className="flex justify-center">
       <a
         href="tel:+420775601128"
-        className="inline-block justify-self-center font-bold text-xl text-center transform hover:scale-125 hover:bg-white py-2 px-6 mt-4 rounded-md shadow-md ease-in-out duration-200"
+        className="inline-block justify-self-center font-bold text-lg sm:text-xl text-center transform hover:scale-125 hover:bg-white py-2 px-6 mt-4 rounded-md shadow-md ease-in-out duration-200"
       >
         <MobileDark className="inline-block mr-4" />
         775 601 128
