@@ -8,7 +8,7 @@ interface Props {
 const OfferRow: FC<Props> = ({ product, price }) => (
   <div className="flex justify-between">
     <span>{product}</span>
-    <span>{price}</span>
+    <span>{price} Kč</span>
   </div>
 )
 
