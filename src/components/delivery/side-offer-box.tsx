@@ -24,6 +24,7 @@ const SideOfferBox: FC<Props> = ({ className }) => (
       <div className="col-start-1 col-span-3">
         Rulandské modré 2019, polosuché
       </div>
+      <div className="col-start-4 col-span-1">120&nbsp;Kč</div>
     </div>
     <h3 className="col-start-1 col-span-4 text-xl block mb-1">
       Lahvinky z Vinařství Konečný, Čejkovice

@@ -7,6 +7,13 @@ import Logo from '../../assets/svg/logo.svg'
 import Hamburger from '../../assets/svg/hamburger.svg'
 import Close from '../../assets/svg/close.svg'
 
+import {
+  ROZVOZ,
+  VINA,
+  DESTILATY,
+  KONTAKT,
+} from '../../constants/external-routes'
+
 interface Props {
   className?: string
 }
@@ -43,17 +50,25 @@ const MobileMenu: FC<Props> = ({ className }) => {
           className="flex flex-col row-start-1 col-start-2 col-span-1 space-y-4 items-center md:space-y-0 md:flex-row justify-between w-full mx-auto py-4 px-8 max-w-screen-xl outline-none font-lovers text-3xl sm:text-4xl md:text-6xl"
         >
           <div className={closeCss}>
-            <a href="/#rozvoz">
-              <button className={button}>Rozvoz</button>
+            <a href={ROZVOZ}>
+              <button className={button} onClick={toggle}>
+                Rozvoz
+              </button>
             </a>
-            <a href="/#vina">
-              <button className={button}>Vína</button>
+            <a href={VINA}>
+              <button className={button} onClick={toggle}>
+                Vína
+              </button>
             </a>
-            <a href="/#destilaty">
-              <button className={button}>Destiláty</button>
+            <a href={DESTILATY}>
+              <button className={button} onClick={toggle}>
+                Destiláty
+              </button>
             </a>
-            <a href="/#kontakt">
-              <button className={button}>Kontakt</button>
+            <a href={KONTAKT}>
+              <button className={button} onClick={toggle}>
+                Kontakt
+              </button>
             </a>
           </div>
         </div>

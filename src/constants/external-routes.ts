@@ -1,4 +1,4 @@
-export const HOME = '/'
+export const HOME = '/#vinoteka'
 export const ROZVOZ = '/#rozvoz'
 export const VINA = '/#vina'
 export const DESTILATY = '/#destilaty'

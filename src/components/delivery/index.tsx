@@ -6,11 +6,9 @@ import SideOfferBox from './side-offer-box'
 import Chosen from './chosen'
 import MobileDark from '../../assets/svg/mobile-dark.svg'
 
-import { products } from './products'
-
 const Delivery: FC = () => (
   <>
-    <h2 className="font-lovers md:text-6xl text-4xl text-center">
+    <h2 className="font-lovers md:text-6xl text-4xl text-center" id="rozvoz">
       Rozvoz vín po Slaném a&nbsp;okolí
     </h2>
     <div className="flex justify-center">
@@ -23,18 +21,9 @@ const Delivery: FC = () => (
       </a>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
-      <TopOfferBox
-        products={products}
-        className="col-start-1 col-span-1 row-start-1 row-span-1"
-      />
-      <BottomOfferBox
-        products={products}
-        className="col-start-1 col-span-1 row-start-3 sm:row-start-2 row-span-1"
-      />
-      <SideOfferBox
-        products={products}
-        className="sm:col-start-2 col-start-1 col-span-1 sm:row-start-1 sm:row-span-2 row-span-1"
-      />
+      <TopOfferBox className="col-start-1 col-span-1 row-start-1 row-span-1" />
+      <BottomOfferBox className="col-start-1 col-span-1 row-start-3 sm:row-start-2 row-span-1" />
+      <SideOfferBox className="sm:col-start-2 col-start-1 col-span-1 sm:row-start-1 sm:row-span-2 row-span-1" />
     </div>
     <Chosen />
   </>
