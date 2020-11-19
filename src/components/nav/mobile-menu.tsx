@@ -38,7 +38,7 @@ const MobileMenu: FC<Props> = ({ className }) => {
         aria-label="Vinotéka U Jana Amose"
         className={`${hamburgerCss} mx-auto col-start-2 col-span-1`}
       >
-        <Logo className="h-16 my-2" />
+        <Logo className="h-16 my-2 u-logo" />
       </button>
       <div className="justify-self-end cursor-pointer col-start-3 col-span-1">
         <Hamburger onClick={toggle} className={`${hamburgerCss} mr-4 mt-8`} />

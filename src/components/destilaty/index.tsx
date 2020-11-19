@@ -5,10 +5,7 @@ import React, { FC } from 'react'
 const Destilaty: FC = () => (
   <>
     <div className="flex flex-col justify-center px-4 mx-auto mb-4 max-w-70 text-center align-center">
-      <h2
-        className="font-lovers md:text-6xl text-4xl text-center mt-16"
-        id="destilaty"
-      >
+      <h2 className="font-lovers md:text-6xl text-4xl text-center mt-16">
         Destiláty
       </h2>
       <p className="text-lg md:w-1/2 mx-auto mb-20">

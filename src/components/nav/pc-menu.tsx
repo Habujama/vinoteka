@@ -34,9 +34,9 @@ const PcMenu: FC<Props> = ({ className }) => {
           <a href={HOME}>
             <button
               aria-label="Vinotéka U Jana Amose"
-              className="focus:outline-none h-24 ml-2 mr-8 duration-200 hover:scale-110 transform"
+              className="lg:block hidden focus:outline-none w-24 -ml-4 mr-8 duration-200 hover:scale-110 transform"
             >
-              <Logo className="min-w-50" />
+              <Logo />
             </button>
           </a>
           <a href={DESTILATY}>
