@@ -14,8 +14,8 @@ const IndexPage: FC<PageProps> = () => (
     <SEO title="Vinotéka U Jana Amose" />
     <Hero />
     <News
-      title="Dovezeme vám víno až domů"
-      message="Chápeme, že se vám během lockdownu nechce chodit ven a nedostanete se tak ani k nám do vinotéky. My vám vinotéku přivezeme domů! Vyberte si z naší týdenní nabídky vín a zavolejte si o ně."
+      title="Limitovaná edice vín ze&nbsp;slánských&nbsp;vinic"
+      message="Darujte výborná vína z hroznů ze slánské viniční tratě Ovčáry. Tato krásná vínka ročníku 2019 pro vás vyrobil pan sklepmistr Podrábský z Roudnice nad Labem. Všechny lahvinky jsou pouze v malých šaržích a brzy se vyprodají. Starší ročníky již nejsou."
     />
     <Delivery />
     <Winery />
