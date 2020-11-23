@@ -19,6 +19,9 @@ const Delivery: FC = () => (
         <MobileDark className="inline-block mr-4" />
         775 601 128
       </a>
+      <p className="px-10 text-center text-red-dark">
+        Psst! Od osmi večer do osmi ráno spíme. Počkejte prosím do rána.
+      </p>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
       <TopOfferBox className="col-start-1 col-span-1 row-start-1 row-span-1" />

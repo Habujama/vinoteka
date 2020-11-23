@@ -27,6 +27,9 @@ module.exports = {
         '4': '#666666',
         '5': '#242424',
       },
+      red: {
+        dark: '#660000',
+      },
     },
     boxShadow: {
       md: '0 2px 24px 0 rgba(0, 0, 0, 0.1)',
