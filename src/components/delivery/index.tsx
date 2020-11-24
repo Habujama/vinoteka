@@ -23,7 +23,7 @@ const Delivery: FC = () => {
         </a>
       </div>
 
-      {currentHours > 8 || currentHours < 20 ? (
+      {currentHours < 7 || currentHours > 20 ? (
         <p className="px-10 mt-4 text-center text-red-dark">
           Psst! Od osmi do osmi spíme. Počkejte prosím do rána.
         </p>
