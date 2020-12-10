@@ -19,6 +19,18 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Vinotéka U Jana Amose',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#fcf9f9',
+        theme_color: '#ffffff',
+        display: 'minimal-ui',
+        icon: 'src/assets/svg/logo.svg', // This path is relative to the root of the site.
+      },
+    },
+    {
       resolve: 'gatsby-plugin-webfonts',
       options: {
         fonts: {
@@ -37,6 +49,34 @@ module.exports = {
             },
           ],
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'G-CN56Y4Z9LQ',
+
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: 'gatsby' },
+
+        // Specify optional GTM environment details.
+        gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING',
+        gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME',
+        dataLayerName: 'YOUR_DATA_LAYER_NAME',
+
+        // Name of the event that is triggered
+        // on every Gatsby route change.
+        //
+        // Defaults to gatsby-route-change
+        routeChangeEventName: 'YOUR_ROUTE_CHANGE_EVENT_NAME',
       },
     },
     {
@@ -91,18 +131,6 @@ module.exports = {
             autoprefixer: { grid: isProduction },
           }),
         ],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'Vinotéka U Jana Amose',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#fcf9f9',
-        theme_color: '#ffffff',
-        display: 'minimal-ui',
-        icon: 'src/assets/svg/logo.svg', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

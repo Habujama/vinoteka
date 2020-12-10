@@ -22,7 +22,7 @@ const News: FC<Props> = ({ title, message }) => {
         </div>
         <div className="col-start-4 col-span-1">180&nbsp;Kč</div>
         <div className="col-start-1 col-span-3">
-          Sauvinon, zemské víno suché
+          Sauvignon, zemské víno suché
         </div>
         <div className="col-start-4 col-span-1">240&nbsp;Kč</div>
         <div className="col-start-1 col-span-3">Pálava, jakostní polosuché</div>
