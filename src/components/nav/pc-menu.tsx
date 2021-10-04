@@ -4,13 +4,7 @@ import classNames from 'classnames'
 import Wrapper from '../shared/wrapper'
 import Logo from '../../assets/svg/logo.svg'
 
-import {
-  ROZVOZ,
-  VINA,
-  HOME,
-  DESTILATY,
-  KONTAKT,
-} from '../../constants/external-routes'
+import { VINA, HOME, DESTILATY, KONTAKT } from '../../constants/external-routes'
 
 interface Props {
   className?: string
@@ -25,12 +19,6 @@ const PcMenu: FC<Props> = ({ className }) => {
     <div className={className}>
       <Wrapper>
         <div className="flex flex-col space-y-4 items-center md:space-y-0 md:flex-row justify-between w-full mx-auto py-4 px-8 max-w-screen-xl outline-white font-lovers text-lg sm:text-4xl md:text-5xl">
-          <a href={ROZVOZ}>
-            <button className={button}>Rozvoz</button>
-          </a>
-          <a href={VINA}>
-            <button className={button}>Vína</button>
-          </a>
           <a href={HOME}>
             <button
               aria-label="Vinotéka U Jana Amose"
@@ -38,6 +26,9 @@ const PcMenu: FC<Props> = ({ className }) => {
             >
               <Logo />
             </button>
+          </a>
+          <a href={VINA}>
+            <button className={button}>Vína</button>
           </a>
           <a href={DESTILATY}>
             <button className={`${button} md:-ml-8`}>Destiláty</button>
